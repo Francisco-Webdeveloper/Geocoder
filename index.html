@@ -16,12 +16,15 @@
   </head>
   <body>
     <h1>Geocoder</h1>
+    <!-- form to insert the location -->
     <form id="search-locations" class="form-inline justify-content-center mt-5">
       <input type="text" id="location" name="location" placeholder="Type a location" class="mr-sm-2 py-1 pl-3">
       <button class="btn btn-light py-1 font-weight-bold" type="submit">Geocode!</button>
     </form>
     <div class="d-flex flex-column align-items-center mt-5">
+      <!-- div to append the gps coordinates -->
       <div id="gps-coordinates"></div>
+      <!-- div to insert the map -->
       <div id='map' style='width: 800px; height: 300px;'></div>
     </div>
 
