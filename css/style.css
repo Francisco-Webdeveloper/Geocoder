@@ -1,2 +1,10 @@
+body {
+  background: #2D3E4E;
+  color: white;
+}
 
+h1 {
+  text-align: center;
+  margin-top: 32px;
+}
 
