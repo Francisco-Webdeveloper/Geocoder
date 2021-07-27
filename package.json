@@ -5,8 +5,5 @@
   "license": "UNLICENSED",
   "dependencies": {
     "mapbox-gl": "^2.3.1"
-  },
-  "scripts": {
-    "start": "node ./lib/app.js"
   }
 }
